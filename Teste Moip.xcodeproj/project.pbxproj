@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB328851CD0179900AF8AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB328841CD0179900AF8AB0 /* AppDelegate.swift */; };
+		ECB328871CD0179900AF8AB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB328861CD0179900AF8AB0 /* ViewController.swift */; };
+		ECB3288A1CD0179900AF8AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB328881CD0179900AF8AB0 /* Main.storyboard */; };
+		ECB3288C1CD0179900AF8AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB3288B1CD0179900AF8AB0 /* Assets.xcassets */; };
+		ECB3288F1CD0179900AF8AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB3288D1CD0179900AF8AB0 /* LaunchScreen.storyboard */; };
+		ECB3289A1CD0179900AF8AB0 /* Teste_MoipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB328991CD0179900AF8AB0 /* Teste_MoipTests.swift */; };
+		ECB328A51CD0179900AF8AB0 /* Teste_MoipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB328A41CD0179900AF8AB0 /* Teste_MoipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB328961CD0179900AF8AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB328791CD0179900AF8AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB328801CD0179900AF8AB0;
+			remoteInfo = "Teste Moip";
+		};
+		ECB328A11CD0179900AF8AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB328791CD0179900AF8AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB328801CD0179900AF8AB0;
+			remoteInfo = "Teste Moip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB328811CD0179900AF8AB0 /* Teste Moip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teste Moip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB328841CD0179900AF8AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB328861CD0179900AF8AB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB328891CD0179900AF8AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB3288B1CD0179900AF8AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB3288E1CD0179900AF8AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB328901CD0179900AF8AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB328951CD0179900AF8AB0 /* Teste MoipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste MoipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB328991CD0179900AF8AB0 /* Teste_MoipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_MoipTests.swift; sourceTree = "<group>"; };
+		ECB3289B1CD0179900AF8AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB328A01CD0179900AF8AB0 /* Teste MoipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste MoipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB328A41CD0179900AF8AB0 /* Teste_MoipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_MoipUITests.swift; sourceTree = "<group>"; };
+		ECB328A61CD0179900AF8AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB3287E1CD0179900AF8AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB328921CD0179900AF8AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3289D1CD0179900AF8AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB328781CD0179900AF8AB0 = {
+			isa = PBXGroup;
+			children = (
+				ECB328831CD0179900AF8AB0 /* Teste Moip */,
+				ECB328981CD0179900AF8AB0 /* Teste MoipTests */,
+				ECB328A31CD0179900AF8AB0 /* Teste MoipUITests */,
+				ECB328821CD0179900AF8AB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB328821CD0179900AF8AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB328811CD0179900AF8AB0 /* Teste Moip.app */,
+				ECB328951CD0179900AF8AB0 /* Teste MoipTests.xctest */,
+				ECB328A01CD0179900AF8AB0 /* Teste MoipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB328831CD0179900AF8AB0 /* Teste Moip */ = {
+			isa = PBXGroup;
+			children = (
+				ECB328841CD0179900AF8AB0 /* AppDelegate.swift */,
+				ECB328861CD0179900AF8AB0 /* ViewController.swift */,
+				ECB328881CD0179900AF8AB0 /* Main.storyboard */,
+				ECB3288B1CD0179900AF8AB0 /* Assets.xcassets */,
+				ECB3288D1CD0179900AF8AB0 /* LaunchScreen.storyboard */,
+				ECB328901CD0179900AF8AB0 /* Info.plist */,
+			);
+			path = "Teste Moip";
+			sourceTree = "<group>";
+		};
+		ECB328981CD0179900AF8AB0 /* Teste MoipTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB328991CD0179900AF8AB0 /* Teste_MoipTests.swift */,
+				ECB3289B1CD0179900AF8AB0 /* Info.plist */,
+			);
+			path = "Teste MoipTests";
+			sourceTree = "<group>";
+		};
+		ECB328A31CD0179900AF8AB0 /* Teste MoipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB328A41CD0179900AF8AB0 /* Teste_MoipUITests.swift */,
+				ECB328A61CD0179900AF8AB0 /* Info.plist */,
+			);
+			path = "Teste MoipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB328801CD0179900AF8AB0 /* Teste Moip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB328A91CD0179900AF8AB0 /* Build configuration list for PBXNativeTarget "Teste Moip" */;
+			buildPhases = (
+				ECB3287D1CD0179900AF8AB0 /* Sources */,
+				ECB3287E1CD0179900AF8AB0 /* Frameworks */,
+				ECB3287F1CD0179900AF8AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Teste Moip";
+			productName = "Teste Moip";
+			productReference = ECB328811CD0179900AF8AB0 /* Teste Moip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB328941CD0179900AF8AB0 /* Teste MoipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB328AC1CD0179900AF8AB0 /* Build configuration list for PBXNativeTarget "Teste MoipTests" */;
+			buildPhases = (
+				ECB328911CD0179900AF8AB0 /* Sources */,
+				ECB328921CD0179900AF8AB0 /* Frameworks */,
+				ECB328931CD0179900AF8AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB328971CD0179900AF8AB0 /* PBXTargetDependency */,
+			);
+			name = "Teste MoipTests";
+			productName = "Teste MoipTests";
+			productReference = ECB328951CD0179900AF8AB0 /* Teste MoipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB3289F1CD0179900AF8AB0 /* Teste MoipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB328AF1CD0179900AF8AB0 /* Build configuration list for PBXNativeTarget "Teste MoipUITests" */;
+			buildPhases = (
+				ECB3289C1CD0179900AF8AB0 /* Sources */,
+				ECB3289D1CD0179900AF8AB0 /* Frameworks */,
+				ECB3289E1CD0179900AF8AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB328A21CD0179900AF8AB0 /* PBXTargetDependency */,
+			);
+			name = "Teste MoipUITests";
+			productName = "Teste MoipUITests";
+			productReference = ECB328A01CD0179900AF8AB0 /* Teste MoipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB328791CD0179900AF8AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tattoo Finder";
+				TargetAttributes = {
+					ECB328801CD0179900AF8AB0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ECB328941CD0179900AF8AB0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ECB328801CD0179900AF8AB0;
+					};
+					ECB3289F1CD0179900AF8AB0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ECB328801CD0179900AF8AB0;
+					};
+				};
+			};
+			buildConfigurationList = ECB3287C1CD0179900AF8AB0 /* Build configuration list for PBXProject "Teste Moip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB328781CD0179900AF8AB0;
+			productRefGroup = ECB328821CD0179900AF8AB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB328801CD0179900AF8AB0 /* Teste Moip */,
+				ECB328941CD0179900AF8AB0 /* Teste MoipTests */,
+				ECB3289F1CD0179900AF8AB0 /* Teste MoipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB3287F1CD0179900AF8AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3288F1CD0179900AF8AB0 /* LaunchScreen.storyboard in Resources */,
+				ECB3288C1CD0179900AF8AB0 /* Assets.xcassets in Resources */,
+				ECB3288A1CD0179900AF8AB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB328931CD0179900AF8AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3289E1CD0179900AF8AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB3287D1CD0179900AF8AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB328871CD0179900AF8AB0 /* ViewController.swift in Sources */,
+				ECB328851CD0179900AF8AB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB328911CD0179900AF8AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3289A1CD0179900AF8AB0 /* Teste_MoipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3289C1CD0179900AF8AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB328A51CD0179900AF8AB0 /* Teste_MoipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB328971CD0179900AF8AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB328801CD0179900AF8AB0 /* Teste Moip */;
+			targetProxy = ECB328961CD0179900AF8AB0 /* PBXContainerItemProxy */;
+		};
+		ECB328A21CD0179900AF8AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB328801CD0179900AF8AB0 /* Teste Moip */;
+			targetProxy = ECB328A11CD0179900AF8AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB328881CD0179900AF8AB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB328891CD0179900AF8AB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB3288D1CD0179900AF8AB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB3288E1CD0179900AF8AB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB328A71CD0179900AF8AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB328A81CD0179900AF8AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB328AA1CD0179900AF8AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Teste Moip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tattoofinder.Teste-Moip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECB328AB1CD0179900AF8AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Teste Moip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tattoofinder.Teste-Moip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECB328AD1CD0179900AF8AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Teste MoipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tattoofinder.Teste-MoipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teste Moip.app/Teste Moip";
+			};
+			name = Debug;
+		};
+		ECB328AE1CD0179900AF8AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Teste MoipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tattoofinder.Teste-MoipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teste Moip.app/Teste Moip";
+			};
+			name = Release;
+		};
+		ECB328B01CD0179900AF8AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Teste MoipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tattoofinder.Teste-MoipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Teste Moip";
+			};
+			name = Debug;
+		};
+		ECB328B11CD0179900AF8AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Teste MoipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.tattoofinder.Teste-MoipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Teste Moip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB3287C1CD0179900AF8AB0 /* Build configuration list for PBXProject "Teste Moip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB328A71CD0179900AF8AB0 /* Debug */,
+				ECB328A81CD0179900AF8AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB328A91CD0179900AF8AB0 /* Build configuration list for PBXNativeTarget "Teste Moip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB328AA1CD0179900AF8AB0 /* Debug */,
+				ECB328AB1CD0179900AF8AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB328AC1CD0179900AF8AB0 /* Build configuration list for PBXNativeTarget "Teste MoipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB328AD1CD0179900AF8AB0 /* Debug */,
+				ECB328AE1CD0179900AF8AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB328AF1CD0179900AF8AB0 /* Build configuration list for PBXNativeTarget "Teste MoipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB328B01CD0179900AF8AB0 /* Debug */,
+				ECB328B11CD0179900AF8AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB328791CD0179900AF8AB0 /* Project object */;
+}
